@@ -1,0 +1,6 @@
+file=open('sample.txt','r')
+file.write('mahesh')
+a=file.read(2)
+print(a)
+file.close()
+a=file.readlines(2)
